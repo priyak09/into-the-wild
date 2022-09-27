@@ -1,27 +1,25 @@
-# IntoTheWild
+Source for https://priyak09.github.io/into-the-wild/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+# Into The Wild
 
-## Development server
+Into the Wild is a fun website created to help you choose your next travel destination. Currently it's only limited to the places in India. It uses Angular 14, Bootstrap and Material UI.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# General info
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Currently it contains static data that has been prepared after thorough research from different websites.
+* From mountains to beaches and from forests to cities, India has it all but, since the weather changes throughout the year and varies greatly from north to south and east to west, it might be difficult to select a suitable travel destination. The aim is to help you quickly reach a decision in case you're confused about your travel destination or if too many options are weighing you down.
+* The surprise card gives you options which I have personally visited during the specific months and found the weather conditions suitable for enjoying the beauty of the place. But again, weather has become more unpredictable lately, so don't blame me if it rains when it's not supposed to :)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Technologies
 
-## Running unit tests
+* [Angular 14](https://angular.io/): Version 14.2.0
+* [Bootstrap](https://getbootstrap.com/): Version 5.2.1
+* [Angular Material](https://material.angular.io/guide/getting-started)
+* [Jquery](https://www.npmjs.com/package/jquery) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+# Contact
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Repo created by priyak09, email: priyaknair09@gmail.com

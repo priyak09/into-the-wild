@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+
+html {
+  cursor: none;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  background-color: black;
+  image-rendering: pixelated;
+  position: relative;
+}
+
+#loading {
+  background: url('https://www.animatedimages.org/data/media/75/animated-train-image-0043.gif') no-repeat center center;
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  margin-top: 250px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgb(49, 50, 50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
