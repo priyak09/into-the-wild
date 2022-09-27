@@ -4,7 +4,7 @@ function hideLoader() {
   $('#loading').hide();
 }
 
-$(window).ready(hideLoader);
+$('#title-1').ready(hideLoader);
 
 
 /* data cursor */
