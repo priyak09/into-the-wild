@@ -102,18 +102,18 @@ h1 {
 #title-1 {
     z-index: -1;
     margin: 0px;
-    background-image: url("https://priyak09.github.io/into-the-wild/assets/images/plane-cover.jpeg");
+    background-image: url("../assets/images/plane-cover.jpeg");
     background-size: cover;
 }
 
 #title-2 {
-    background-image: url("https://priyak09.github.io/into-the-wild/assets/images/wegotyou.jpg");
+    background-image: url("../assets/images/wegotyou.jpg");
     background-size: cover;
     color: white;
 }
 
 #title-3 {
-    background-image: url("https://priyak09.github.io/into-the-wild/assets/images/sunset.jpg");
+    background-image: url("../assets/images/sunset.jpg");
     background-size: cover;
 }
 
@@ -233,7 +233,7 @@ h2 {
 }
 
 .good-vibes {
-    background-image: url("https://priyak09.github.io/into-the-wild/assets/images/good-vibes.jpg");
+    background-image: url("../assets/images/good-vibes.jpg");
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -244,7 +244,7 @@ h2 {
 
 .container-loc {
     // background-color:rgba(151, 185, 235, 0.7);
-    background-image: url("https://priyak09.github.io/into-the-wild/assets/images/sky.jpeg");
+    background-image: url("../assets/images/sky.jpeg");
     // background: transparent;
     margin-top: 110px;
     height: 750px;
@@ -298,7 +298,7 @@ h2 {
 /* Common css for cards */
 
 .wrapper {
-    background-image: url("https://priyak09.github.io/into-the-wild/assets/images/plane-place.jpeg");
+    background-image: url("../assets/images/plane-place.jpeg");
     background-size: cover;
     image-rendering: pixelated;
 }
