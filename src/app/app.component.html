@@ -39,7 +39,7 @@
 
 <div class="wrapper">
 
-  <div *ngIf="month" id="location" class="container-loc">
+  <div [hidden]="!month" id="location" class="container-loc">
     <h2>Any direction in mind?</h2>
     <div class="card-wrapper">
 
