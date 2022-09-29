@@ -1,0 +1,24 @@
+<div *ngIf="loading" class="d-flex justify-content-center">
+    <div class="spinner-grow text-secondary align-middle" role="status">
+      <span class="sr-only">LOADING...</span>
+    </div>
+  </div>
+
+      <div *ngIf="!loading" class="place-wrapper">
+        <div class="row">        
+          <div *ngFor="let data of placesArr" class="col-md-4">
+            <p class="place-label">{{data}}</p>
+  
+            <mat-card ngxParallaxScroll [parallaxSpeed]='0.015' [parallaxSmoothness]='0.5' [parallaxDirection]='"reverse"'
+              [parallaxTimingFunction]='"linear"' [parallaxThrottleTime]='10' class="place-card">
+              <img mat-card-image class="place-img" src=" ./assets/images/{{data}}.jpg" alt={{data}}>
+  
+              <div class="led-box">
+                <div class="led-blue"></div>
+              </div>
+            </mat-card>
+  
+          </div>
+        </div>
+      </div>
+  
