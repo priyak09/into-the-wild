@@ -1,0 +1,115 @@
+@keyframes slide {
+    from { transform: translateX(-500%) }
+    to { transform: translate(0%) }
+}
+@-webkit-keyframes slide {
+    from { transform: translateX(-500%) }
+    to { transform: translate(0%) }
+  }
+@-moz-keyframes slide {
+    from { transform: translateX(-500%) }
+    to { transform: translate(0%) }
+  }
+@-o-keyframes slide {
+    from { transform: translateX(-500%) }
+    to { transform: translate(0%) }
+  }
+
+  .spinner-grow {
+    margin-top: 300px;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .d-flex {
+    height: 100vh;
+  }
+
+  .place-wrapper {
+    padding: 16px;
+    padding-left: 50px;
+}
+
+.place-wrapper > mat-card {
+    width: 350px;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+.col-md-4 {
+    margin: 100px;
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+}
+
+.place-label {
+    color: rgba(255, 255, 255, 0.73);
+    transform-origin: 50% 50%;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-left: 30px;
+    font-family: "Satisfy", cursive;
+    font-size: 17px;
+}
+
+.led-box {
+    position: absolute;
+    height: 30px;
+    width: 25%;
+    margin: 10px 0;
+    float: left;
+    z-index: 0;
+    margin-top: -275px;
+    margin-left: 105px;
+    animation: slide 1s ease-in-out forwards;
+    -webkit-animation: slide 1s ease-in-out forwards; /* Safari 4+ */
+    -moz-animation: slide 1s ease-in-out forwards; /* Fx 5+ */
+    -o-animation: slide 1s ease-in-out forwards; /* Opera 12+ */
+}
+
+.led-blue {
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #033456 0 -1px 9px, rgba(0, 76, 255, 0.5) 0 2px 0px;
+    transition: background-color 0.2s;
+}
+
+.place-card:hover {
+    .led-blue {
+        background-color: rgb(147, 244, 255);
+        box-shadow: 0 0 10px #00a2ff, 0 0 20px #00a2ff, 0 0 30px #00a2ff, 0 0 40px #00a2ff, 0 0 50px #00a2ff, 0 0 60px #00a2ff, 0 0 70px #00a2ff, 0 0 90px #00a2ff;
+    }
+}
+
+.place-card > .mat-card-image {
+    width: 260px;
+    height: 260px;
+}
+
+.mat-card-image:first-child {
+    margin-top: -1px;
+}
+
+.card {
+    height: 400px;
+    width: 500px;
+    margin-top: 30px;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}
+
+.mat-card-image {
+    // margin: 1px 0px 0px 0px;
+    // margin-top: -1px;
+    margin: 0px;
+}
+
+.mat-card {
+    padding: 0px;
+}

@@ -21,6 +21,9 @@ export class AppComponent {
   hoverPlace = "";
   faPlane = faPlane;
   scroll = false;
+  imgs = document.images;
+  len = this.imgs.length;
+  counter = 0;
   monthArr = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
   monthData = {
     jan: {
@@ -116,7 +119,7 @@ export class AppComponent {
     }
   }
 
-  setLocation(loc: string) {
+  setLocation(loc: string) {   
     this.location = loc;
     switch (this.month) {
       case 'jan': {
