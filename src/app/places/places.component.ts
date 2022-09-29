@@ -15,13 +15,20 @@ export class PlacesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-   
+   this.checkImages();
   }
 
   ngOnChanges(changes: SimpleChanges) {
     setTimeout( () => {
       if (changes['placesArr']) {
-        this.counter = 0;
+        this.checkImages();
+      }
+    }, 100);
+   
+}
+
+checkImages() {
+  this.counter = 0;
         const imgs = document.images;
         this.len = imgs.length;
         for (let img of imgs) {
@@ -32,9 +39,6 @@ export class PlacesComponent implements OnInit {
             img.addEventListener('load', this.incrementCounter, false);
           }  
         }
-      }
-    }, 100);
-   
 }
 
 incrementCounter() {
