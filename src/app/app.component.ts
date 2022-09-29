@@ -50,9 +50,9 @@ export class AppComponent {
     april: {
       north: ['Kashmir', 'Jaipur', 'Udaipur'],
       south: ['Kerala', 'Andaman & Nicobar', 'Coorg', 'Ooty'],
-      east: ['Gangtok', 'Assam', 'Darjeeling', 'Kolkata', 'Arunachal Pradesh', 'Cherrapunji'],
+      east: ['Gangtok', 'Assam', 'Darjeeling', 'Kolkata', 'Arunachal Pradesh', 'Cherrapunjee'],
       west: ['Goa'],
-      surprise: ['Cherrapunji']
+      surprise: ['Cherrapunjee']
     },
     may: {
       north: ['Ladakh', 'Nainital', 'Dharamshala', 'Manali', 'Shimla', 'Kashmir'],
